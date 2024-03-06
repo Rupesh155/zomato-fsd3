@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 65vh;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    width: 100vw;
+
+}
+span{
+    color: white;
+    font-size: larger;
+}
+.navbar-left{
+    display: flex;
+    justify-content: space-between;
+    padding-left:  60px;
+    width: 300px;
+
+    /* background-color: black; */
+}
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    padding-right:  60px;
+    width: 300px;
+
+    /* background-color: black; */
+}
+.heading-zomato {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* top: 20%; */
+    left: 40%;
+    /* background-color: red; */
+    /* transform: translateX(-50%); */
+}
+
+.img{
+    /* width: 280px; */
+    height: 60px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <img src="BackGround.png" />
+        <div class="navbar">
+            <div class="navbar-left">
+                <span>    <i class="fas fa-home"></i>
+                    View food</span>
+                <span> add restro</span>
+
+            </div>
+
+            <div class="navbar-right">
+                <span>Signup</span>
+                <span>login</span>
+
+            </div>
+
+        </div>
+
+        <div  class="heading-zomato">
+            <img  class="img"  src="Zomato-Logo.png"/>
+            <div class="input-name">
+                <h1> hello zomato</h1>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
